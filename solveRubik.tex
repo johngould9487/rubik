@@ -1,0 +1,46 @@
+\documentclass{article}
+\usepackage{blindtext}
+\title{How to solve a Rubik's cube}
+\author{John Gould}
+\begin{document}
+    \maketitle
+    \begin{enumerate}
+        \item \textbf{Construct the daisy}
+
+              Find the yellow centre and surround it with with four white edges.
+        \item \textbf{Create a white cross}
+
+              Match other square on white edge with same coloured centre square on its face.
+              Rotate the face 2. Repeat for other `daisy petals'.
+        \item \textbf{Get whites on to the bottom layer}
+        
+              Turn white square onto bottom. Find white squares on top layer (not top face).
+              Turn top layer such that square adjacent to white square (same cube but not top face)
+              is diagonal to centre square of same colour. Perform right/left trigger accordingly.
+              If a white is on bottom layer, right/left trigger it to top layer. If white on top, rotate
+              top layer such that white square is above non-white square on bottom face. Now perform right/left
+              trigger twice to get it onto top row (not face). Repeat until bottom face is all white. Bottom 
+              row will also be solved.
+        \item \textbf{Solve the second layer}
+
+              Find edge piece on top layer that do NOT contain yellow. Create `T' on one face.
+              Look to see if top face colour above `T' is matched with centre square on left or right face.
+              Pull top layer once with right(left) index finger if match is on right(left) then perform right(left)
+              trigger. Reposition displace white square as before. Continue until second layer is solved.
+
+        \item Create a yellow cross
+        \item Solve the yellow face
+        \item $L'\quad
+               U\quad
+               R\quad
+               U'\quad
+               L\quad
+               U2\quad
+               R'\quad
+               U\quad
+               R\quad
+               U2\quad
+               R'$
+        \item Finish the cube
+    \end{enumerate}
+\end{document}
