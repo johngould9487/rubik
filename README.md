@@ -1,6 +1,4 @@
----
-title: 'How to solve a Rubik''s cube'
----
+# How to solve a Rubik's cube
 
 1.  **Construct the daisy**
 
@@ -51,12 +49,7 @@ title: 'How to solve a Rubik''s cube'
 
     -   Continue until second layer is solved
 
-5.  $\mathbf{F\quad
-                   U\quad
-                   R\quad
-                   U'\quad
-                   R'\quad
-                   F'}$
+5.  F U R U' R' F'
 
     -   To create the yellow cross, inspect the top face
 
@@ -68,13 +61,7 @@ title: 'How to solve a Rubik''s cube'
 
     -   Perform the algorithm
 
-6.  $\mathbf{R\quad
-                   U\quad
-                   R'\quad
-                   U\quad
-                   R\quad
-                   U2\quad
-                   R'}$
+6.  R U R' U R U2 R'
 
     -   If there are 0 or 2 yellow corners, rotate top face until there
         is a yellow square at the top-right of left face
@@ -83,17 +70,7 @@ title: 'How to solve a Rubik''s cube'
 
     -   Perform the algorithm and repeat until yellow face is solved
 
-7.  $\mathbf{L'\quad
-                   U\quad
-                   R\quad
-                   U'\quad
-                   L\quad
-                   U2\quad
-                   R'\quad
-                   U\quad
-                   R\quad
-                   U2\quad
-                   R'}$
+7.  L' U R U' L U2 R' U R U2 R'
 
     -   If no face has matching upper corners, perform algorithm
 
@@ -102,25 +79,9 @@ title: 'How to solve a Rubik''s cube'
 
     -   Repeat if necessary
 
-8.  CW: $\mathbf{F2\quad
-                   U\quad
-                   R'\quad
-                   L\quad
-                   F2\quad
-                   L'\quad
-                   R\quad
-                   U\quad
-                   F2\quad}$
+8.  CW: F2 U R' L F2 L' R U F2
 
-    CCW: $\mathbf{F2\quad
-                   U'\quad
-                   R'\quad
-                   L\quad
-                   F2\quad
-                   L'\quad
-                   R\quad
-                   U'\quad
-                   F2\quad}$
+    CCW: F2 U' R' L F2 L' R U' F2
 
     -   If one face is solved, position it to the back and perform CW or
         CCW as needed
