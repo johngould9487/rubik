@@ -49,7 +49,7 @@
 
     -   Continue until second layer is solved
 
-5.  F U R U' R' F'
+5.  **F U R U' R' F'**
 
     -   To create the yellow cross, inspect the top face
 
@@ -61,7 +61,7 @@
 
     -   Perform the algorithm
 
-6.  R U R' U R U2 R'
+6.  **R U R' U R U2 R'**
 
     -   If there are 0 or 2 yellow corners, rotate top face until there
         is a yellow square at the top-right of left face
@@ -70,7 +70,7 @@
 
     -   Perform the algorithm and repeat until yellow face is solved
 
-7.  L' U R U' L U2 R' U R U2 R'
+7.  **L' U R U' L U2 R' U R U2 R'**
 
     -   If no face has matching upper corners, perform algorithm
 
@@ -79,9 +79,9 @@
 
     -   Repeat if necessary
 
-8.  CW: F2 U R' L F2 L' R U F2
+8.  **CW: F2 U R' L F2 L' R U F2**
 
-    CCW: F2 U' R' L F2 L' R U' F2
+    **CCW: F2 U' R' L F2 L' R U' F2**
 
     -   If one face is solved, position it to the back and perform CW or
         CCW as needed
