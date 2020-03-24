@@ -1,36 +1,68 @@
 \documentclass{article}
 \usepackage{blindtext}
 \title{How to solve a Rubik's cube}
-\author{John Gould}
+\author{}
+\date{}
 \begin{document}
     \maketitle
     \begin{enumerate}
         \item \textbf{Construct the daisy}
-
-              Find the yellow centre and surround it with with four white edges.
+              \begin{itemize}
+                  \item Construct the yellow center and surround with four white edges
+              \end{itemize}
         \item \textbf{Create a white cross}
-
-              Match other square on white edge with same coloured centre square on its face.
-              Rotate the face 2. Repeat for other `daisy petals'.
+              \begin{itemize}
+                  \item Match other square on white edge with same coloured centre square on its face
+                  \item Rotate that face twice
+                  \item Repeat for other `daisy petals'
+              \end{itemize}
         \item \textbf{Get whites on to the bottom layer}
-        
-              Turn white square onto bottom. Find white squares on top layer (not top face).
-              Turn top layer such that square adjacent to white square (same cube but not top face)
-              is diagonal to centre square of same colour. Perform right/left trigger accordingly.
-              If a white is on bottom layer, right/left trigger it to top layer. If white on top, rotate
-              top layer such that white square is above non-white square on bottom face. Now perform right/left
-              trigger twice to get it onto top row (not face). Repeat until bottom face is all white. Bottom 
-              row will also be solved.
+              \begin{itemize}
+                  \item Turn white square onto bottom
+                  \item find white squares on top layer (not top face)
+                  \item Turn top layer such that square adjacent to white is diagonal to center square of same colour
+                  \item Perform right/left trigger accordingly
+                  \item If white is bottom layer, trigger it to top layer
+                  \item If white on top face, rotate top layer such that white is above a non-white on bottom face
+                        Perform right/trigger twice to move it to top row and repeat as before
+                  \item Repeat until bottom face is all white. Bottom layer is also solved
+              \end{itemize}
         \item \textbf{Solve the second layer}
-
-              Find edge piece on top layer that do NOT contain yellow. Create `T' on one face.
-              Look to see if top face colour above `T' is matched with centre square on left or right face.
-              Pull top layer once with right(left) index finger if match is on right(left) then perform right(left)
-              trigger. Reposition displace white square as before. Continue until second layer is solved.
-
-        \item Create a yellow cross
-        \item Solve the yellow face
-        \item $L'\quad
+              \begin{itemize}
+                  \item Find edge piece on top layer that do NOT contain yellow
+                  \item Create `T' on one face
+                  \item Look to see if top face colour above `T' is matched with centre square on left or right face
+                  \item Pull top layer once with right(left) index finger if match is on right(left) then perform right(left) trigger
+                  \item Reposition displace white square as before
+                  \item Continue until second layer is solved
+              \end{itemize}
+              \pagebreak
+        \item $\mathbf{F\quad
+               U\quad
+               R\quad
+               U'\quad
+               R'\quad
+               F'}$
+              \begin{itemize}
+                  \item To create the yellow cross, inspect the top face
+                  \item If there are two `diametrically' opposed yellows, align them verically
+                  \item If there are two edge yellow 90$^{\circ}$ apart, position them at 9 and 12 o'Clock
+                  \item Perform the algorithm
+              \end{itemize}
+        \item $\mathbf{R\quad
+               U\quad
+               R'\quad
+               U\quad
+               R\quad
+               U2\quad
+               R'}$
+              \begin{itemize}
+                  \item If there are 0 or 2 yellow corners, rotate top face until there is a yellow
+                        square at the top-right of left face
+                  \item If there is 1 yellow corner, position it at bottom-left.
+                  \item Perform the algorithm and repeat until yellow face is solved
+              \end{itemize}
+        \item $\mathbf{L'\quad
                U\quad
                R\quad
                U'\quad
@@ -40,7 +72,34 @@
                U\quad
                R\quad
                U2\quad
-               R'$
-        \item Finish the cube
+               R'}$
+              \begin{itemize}
+                  \item If no face has matching upper corners, perform algorithm
+                  \item If one face has matching upper corners, hold that face to the left and perform algorithm
+                  \item Repeat if necessary
+              \end{itemize}
+        \item CW: $\mathbf{F2\quad
+               U\quad
+               R'\quad
+               L\quad
+               F2\quad
+               L'\quad
+               R\quad
+               U\quad
+               F2\quad}$
+
+              CCW: $\mathbf{F2\quad
+               U'\quad
+               R'\quad
+               L\quad
+               F2\quad
+               L'\quad
+               R\quad
+               U'\quad
+               F2\quad}$
+              \begin{itemize}
+                  \item If one face is solved, position it to the back and perform CW or CCW as needed
+                  \item If no faces are solved perform either CW or CCW twice
+              \end{itemize}
     \end{enumerate}
 \end{document}
