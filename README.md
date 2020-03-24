@@ -56,7 +56,7 @@
     -   If there are two 'diametrically' opposed yellows, align them
         verically
 
-    -   If there are two edge yellow 90$^{\circ}$ apart, position them
+    -   If there are two edge yellow 90&deg; apart, position them
         at 9 and 12 o'Clock
 
     -   Perform the algorithm
